@@ -1,0 +1,56 @@
+SQL> SELECT * FROM Category;
+
+CATEGORY_ID | CATEGORY_NAME        | DESCRIPTION
+----------- | -------------------- | ----------------------------------------
+  1 | Skincare             | Skin care and face care products
+  2 | Makeup               | Makeup and cosmetic products
+  3 | Haircare             | Hair care and hair styling products
+  4 | Fragrance            | Perfumes and body fragrances
+
+SQL> SELECT * FROM Product;
+
+PRODUCT_ID | PRODUCT_NAME                                                 | CATEGORY_ID |      PRICE | STOCK_QUANTITY
+---------- | ---------------------------------------------------------------------------------------------------- | ----------- | ---------- | --------------
+       101 | Face Wash                                                    |            1 |        299 |             50
+       102 | Moisturizer                                                  |            1 |        499 |             30
+       103 | Lipstick                                                     |            2 |        699 |             40
+       104 | Shampoo                                                      |            3 |        399 |             25
+       105 | Perfume                                                      |            4 |        899 |             20
+
+  UPDATE Product
+SET Price = 349.00,
+    Stock_Quantity = 60
+WHERE Product_ID = 101;
+1 row Updated
+
+UPDATE Product
+  SET Price = 549.00
+  WHERE Product_ID = 102;
+  1 row Updated
+
+DELETE FROM Product
+    WHERE Product_ID = 105;
+   1 row deleted
+
+ DELETE FROM Product
+   WHERE Product_ID = 103;
+   1 row deleted
+
+  CATEGORY_NAME        | PRODUCT_NAME                                         |       PRICE | STOCK_QUANTITY
+-------------------- | ---------------------------------------------------------------------------------------------------- | ---------- | --------------
+Haircare             | Shampoo                                              |         399 |             25
+Skincare             | Face Wash                                            |         349 |             60
+Skincare             | Moisturizer                                          |         549 |             30
+ 
+PRODUCT_ID | PRODUCT_NAME                                                 |       PRICE | STOCK_QUANTITY
+---------- | ---------------------------------------------------------------------------------------------------- | ---------- | --------------
+       101 | Face Wash                                                    |         349 |             60
+       102 | Moisturizer                                                  |         549 |             30
+
+       
+CATEGORY_NAME        | PRODUCT_COUNT
+-------------------- | -------------
+Skincare             |             2
+Haircare             |             1
+Makeup               |             0
+Fragrance            |             0
