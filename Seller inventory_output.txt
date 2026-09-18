@@ -1,0 +1,70 @@
+SELLER_ID SELLER_NAME     STORE_NAME         EMAIL              PHONE_NUMBER ADDRESS
+--------- --------------- ------------------ ------------------ ------------ ------------
+      101 Anitha Kumar    Elegant Jewels     anitha@gmail.com   9876543210   Chennai
+      102 Priya Sharma    Shine Collections  priya@gmail.com    9876543211   Bangalore
+      103 Kavitha Raj     Jewel World        kavitha@gmail.com  9876543212   Coimbatore
+      104 Divya Singh     Trendy Jewels      divya@gmail.com    9876543213   Hyderabad
+      105 Meena Devi      Royal Accessories  meena@gmail.com    9876543214   Mumbai
+
+PRODUCT_ID PRODUCT_NAME              PRICE      STOCK
+---------- ------------------------ ------- ----------
+101        Gold Plated Necklace      599.00         50
+102        Stone Earrings            399.00         30
+103        Pearl Bracelet            499.00         20
+104        Temple Necklace           799.00         25
+105        Oxidized Jhumka            299.00         40
+
+INVENTORY_ID PRODUCT_ID SELLER_ID STOCK_QUANTITY STOCK_STATUS
+------------ ---------- --------- -------------- ------------
+1            101        101       50             Available
+2            102        102       30             Available
+3            103        103       0              Unavailable
+4            104        104       25             Available
+5            105        105       0              Unavailable
+
+INVENTORY_ID  PRODUCT_NAME            SELLER_NAME      STORE_NAME           EMAIL
+------------  ----------------------  ---------------  -------------------  --------------------
+1             Gold Plated Necklace    Anitha Kumar     Elegant Jewels       anitha@gmail.com
+2             Stone Earrings          Priya Sharma     Shine Collections    priya@gmail.com
+3             Pearl Bracelet          Kavitha Raj      Jewel World          kavitha@gmail.com
+4             Temple Necklace         Divya Singh      Trendy Jewels        divya@gmail.com
+5             Oxidized Jhumka         Meena Devi       Royal Accessories    meena@gmail.com
+
+PHONE_NUMBER  STOCK_QUANTITY  STOCK_STATUS
+------------  --------------  ------------
+9876543210    50              Available
+9876543211    30              Available
+9876543212    20              Available
+9876543213    25              Available
+9876543214    40              Available
+
+INVENTORY_ID
+------------
+PRODUCT_NAME
+--------------------------------------------------------------------------------
+STORE_NAME
+--------------------------------------------------------------------------------
+STOCK_QUANTITY STOCK_STATUS
+-------------- --------------------
+           3
+Pearl Bracelet
+Jewel World
+             0 Unavailable
+
+
+INVENTORY_ID
+------------
+PRODUCT_NAME
+--------------------------------------------------------------------------------
+STORE_NAME
+--------------------------------------------------------------------------------
+STOCK_QUANTITY STOCK_STATUS
+-------------- --------------------
+           5
+Oxidized Jhumka
+Royal Accessories
+             0 Unavailable
+
+INVENTORY_ID PRODUCT_ID  SELLER_ID STOCK_QUANTITY STOCK_STATUS
+------------ ---------- ---------- -------------- --------------------
+           3        103        103             20 Available
