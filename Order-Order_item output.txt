@@ -1,0 +1,92 @@
+ ORDER_ID CUSTOMER_ID ORDER_DAT TOTAL_AMOUNT ORDER_STATUS
+---------- ----------- --------- ------------ --------------------
+      1001           1 18-SEP-26         2350 Delivered
+      1002           2 19-SEP-26         1200 Shipped
+      1003           3 20-SEP-26         1099 Processing
+      1004           4 21-SEP-26          999 Delivered
+      1005           5 22-SEP-26          850 Shipped
+
+ORDER_ITEM_ID   ORDER_ID PRODUCT_ID   QUANTITY UNIT_PRICE
+------------- ---------- ---------- ---------- ----------
+            1       1001        101          3        550
+            2       1001        102          1        700
+            3       1002        103          2        600
+            4       1003        104          1       1099
+            5       1004        105          1        499
+
+ ORDER_ID TOTAL_AMOUNT
+---------- ------------
+      1001         2500
+
+ 
+ ORDER_ID ORDER_DAT
+---------- ---------
+      1001 23-SEP-26
+
+
+ORDER_ITEM_ID   ORDER_ID PRODUCT_ID   QUANTITY UNIT_PRICE
+------------- ---------- ---------- ---------- ----------
+            1       1001        101          4        550
+
+
+CUSTOMER_ID   ORDER_ID ORDER_DAT
+----------- ---------- ---------
+PRODUCT_NAME
+--------------------------------------------------------------------------------
+  QUANTITY UNIT_PRICE ITEM_TOTAL TOTAL_AMOUNT ORDER_STATUS
+---------- ---------- ---------- ------------ --------------------
+          1       1001 23-SEP-26
+
+         4        550       2200         2500 Delivered
+
+          1       1001 23-SEP-26
+
+         1        700        700         2500 Delivered
+
+CUSTOMER_ID   ORDER_ID ORDER_DAT
+----------- ---------- ---------
+PRODUCT_NAME
+--------------------------------------------------------------------------------
+  QUANTITY UNIT_PRICE ITEM_TOTAL TOTAL_AMOUNT ORDER_STATUS
+---------- ---------- ---------- ------------ --------------------
+
+          5       1005 22-SEP-26
+
+                                          850 Shipped
+
+          4       1004 21-SEP-26
+
+
+CUSTOMER_ID   ORDER_ID ORDER_DAT
+----------- ---------- ---------
+PRODUCT_NAME
+--------------------------------------------------------------------------------
+  QUANTITY UNIT_PRICE ITEM_TOTAL TOTAL_AMOUNT ORDER_STATUS
+---------- ---------- ---------- ------------ --------------------
+         1        499        499          999 Delivered
+
+          3       1003 20-SEP-26
+
+         1       1099       1099         1099 Processing
+
+          2       1002 19-SEP-26
+
+CUSTOMER_ID   ORDER_ID ORDER_DAT
+----------- ---------- ---------
+PRODUCT_NAME
+--------------------------------------------------------------------------------
+  QUANTITY UNIT_PRICE ITEM_TOTAL TOTAL_AMOUNT ORDER_STATUS
+---------- ---------- ---------- ------------ --------------------
+
+         2        600       1200         1200 Shipped
+
+
+6 rows selected.
+
+CUSTOMER_ID TOTAL_ORDERS TOTAL_AMOUNT
+----------- ------------ ------------
+          1            1         5000
+          2            1         1200
+          3            1         1099
+          4            1          999
+          5            1          850
