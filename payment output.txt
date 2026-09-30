@@ -1,0 +1,130 @@
+Commit complete
+
+PAYMENT_ID   ORDER_ID PAYMENT_METHOD
+---------- ---------- --------------------------------------------------
+PAYMENT_D PAYMENT_STATUS                 PAYMENT_AMOUNT
+--------- ------------------------------ --------------
+         1       1001 UPI
+20-SEP-26 Paid                                     2500
+
+         2       1002 Credit Card
+21-SEP-26 Paid                                     1800
+
+         3       1003 Debit Card
+22-SEP-26 Failed                                   3200
+
+PAYMENT_ID   ORDER_ID PAYMENT_METHOD
+---------- ---------- --------------------------------------------------
+PAYMENT_D PAYMENT_STATUS                 PAYMENT_AMOUNT
+--------- ------------------------------ --------------
+         4       1004 Cash on Delivery
+23-SEP-26 Pending                                  1500
+
+         5       1005 UPI
+24-SEP-26 Paid                                     2200
+
+
+PAYMENT_ID   ORDER_ID PAYMENT_METHOD
+---------- ---------- --------------------------------------------------
+PAYMENT_D PAYMENT_STATUS                 PAYMENT_AMOUNT
+--------- ------------------------------ --------------
+         1       1001 UPI
+20-SEP-26 Paid                                     2500
+
+         2       1002 Credit Card
+21-SEP-26 Paid                                     1800
+
+         5       1005 UPI
+24-SEP-26 Paid                                     2200
+
+
+PAYMENT_ID   ORDER_ID PAYMENT_METHOD
+---------- ---------- --------------------------------------------------
+PAYMENT_D PAYMENT_STATUS                 PAYMENT_AMOUNT
+--------- ------------------------------ --------------
+         3       1003 Debit Card
+22-SEP-26 Failed                                   3200
+
+1 row updated
+
+Commit complete
+
+PAYMENT_ID   ORDER_ID PAYMENT_METHOD
+---------- ---------- --------------------------------------------------
+PAYMENT_D PAYMENT_STATUS                 PAYMENT_AMOUNT
+--------- ------------------------------ --------------
+         1       1001 UPI
+20-SEP-26 Paid                                     2500
+
+         2       1002 Credit Card
+21-SEP-26 Paid                                     1800
+
+         3       1003 Debit Card
+22-SEP-26 Paid                                     3200
+
+
+PAYMENT_ID   ORDER_ID PAYMENT_METHOD
+---------- ---------- --------------------------------------------------
+PAYMENT_D PAYMENT_STATUS                 PAYMENT_AMOUNT
+--------- ------------------------------ --------------
+         4       1004 Cash on Delivery
+23-SEP-26 Pending                                  1500
+
+         5       1005 UPI
+24-SEP-26 Paid                                     2200
+
+
+PAYMENT_METHOD                                     NUMBER_OF_TRANSACTIONS
+-------------------------------------------------- ----------------------
+UPI                                                                     2
+Credit Card                                                             1
+Debit Card                                                              1
+Cash on Delivery                                                        1
+
+
+PAYMENT_METHOD                                     TOTAL_AMOUNT_COLLECTED
+-------------------------------------------------- ----------------------
+UPI                                                                  4700
+Credit Card                                                          1800
+Debit Card                                                           3200
+
+
+PAYMENT_ID   ORDER_ID PAYMENT_METHOD
+---------- ---------- --------------------------------------------------
+PAYMENT_D PAYMENT_STATUS                 PAYMENT_AMOUNT ORDER_DAT TOTAL_AMOUNT
+--------- ------------------------------ -------------- --------- ------------
+ORDER_STATUS
+--------------------
+         1       1001 UPI
+20-SEP-26 Paid                                     2500 20-SEP-26         2500
+Delivered
+
+         2       1002 Credit Card
+21-SEP-26 Paid                                     1800 21-SEP-26         1800
+Delivered
+
+PAYMENT_ID   ORDER_ID PAYMENT_METHOD
+---------- ---------- --------------------------------------------------
+PAYMENT_D PAYMENT_STATUS                 PAYMENT_AMOUNT ORDER_DAT TOTAL_AMOUNT
+--------- ------------------------------ -------------- --------- ------------
+ORDER_STATUS
+--------------------
+
+         3       1003 Debit Card
+22-SEP-26 Paid                                     3200 22-SEP-26         3200
+Shipped
+
+         4       1004 Cash on Delivery
+23-SEP-26 Pending                                  1500 23-SEP-26         1500
+
+PAYMENT_ID   ORDER_ID PAYMENT_METHOD
+---------- ---------- --------------------------------------------------
+PAYMENT_D PAYMENT_STATUS                 PAYMENT_AMOUNT ORDER_DAT TOTAL_AMOUNT
+--------- ------------------------------ -------------- --------- ------------
+ORDER_STATUS
+--------------------
+Pending
+
+         5       1005 UPI
+24-SEP-26 Paid                                     2200 24-SEP-26         2200
+Confirmed
