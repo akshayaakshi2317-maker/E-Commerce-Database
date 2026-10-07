@@ -1,0 +1,115 @@
+Commit complete.
+
+ REVIEW_ID CUSTOMER_ID PRODUCT_ID     RATING
+---------- ----------- ---------- ----------
+REVIEW_TEXT
+--------------------------------------------------------------------------------
+REVIEW_DA
+---------
+         1         101        201          5
+Excellent product
+01-SEP-26
+
+         2         102        202          4
+Very good quality
+02-SEP-26
+
+ REVIEW_ID CUSTOMER_ID PRODUCT_ID     RATING
+---------- ----------- ---------- ----------
+REVIEW_TEXT
+--------------------------------------------------------------------------------
+REVIEW_DA
+---------
+
+         3         103        203          3
+Average product
+03-SEP-26
+
+         4         104        201          5
+Very useful product
+
+ REVIEW_ID CUSTOMER_ID PRODUCT_ID     RATING
+---------- ----------- ---------- ----------
+REVIEW_TEXT
+--------------------------------------------------------------------------------
+REVIEW_DA
+---------
+04-SEP-26
+
+         5         105        204          4
+Good product
+05-SEP-26
+
+Commit complete.
+ 
+ RATING_ID CUSTOMER_ID PRODUCT_ID RATING_VALUE RATING_DA
+---------- ----------- ---------- ------------ ---------
+         1         101        201            5 01-SEP-26
+         2         102        202            4 02-SEP-26
+         3         103        203            3 03-SEP-26
+         4         104        201            5 04-SEP-26
+         5         105        204            4 05-SEP-26
+
+ 
+ REVIEW_ID CUSTOMER_ID PRODUCT_ID     RATING
+---------- ----------- ---------- ----------
+REVIEW_TEXT
+--------------------------------------------------------------------------------
+REVIEW_DA
+---------
+         1         101        201          5
+Excellent product
+01-SEP-26
+
+         2         102        202          4
+Very good quality
+02-SEP-26
+
+ REVIEW_ID CUSTOMER_ID PRODUCT_ID     RATING
+---------- ----------- ---------- ----------
+REVIEW_TEXT
+--------------------------------------------------------------------------------
+REVIEW_DA
+---------
+
+         3         103        203          3
+Average product
+03-SEP-26
+
+         4         104        201          5
+Very useful product
+
+ REVIEW_ID CUSTOMER_ID PRODUCT_ID     RATING
+---------- ----------- ---------- ----------
+REVIEW_TEXT
+--------------------------------------------------------------------------------
+REVIEW_DA
+---------
+04-SEP-26
+
+         5         105        204          4
+Good product
+05-SEP-26
+
+
+PRODUCT_ID AVERAGE_RATING
+---------- --------------
+       201              5
+       202              4
+       203              3
+       204              4
+
+
+PRODUCT_ID AVERAGE_RATING
+---------- --------------
+       201              5
+       202              4
+       204              4
+
+
+PRODUCT_ID TOTAL_RATINGS AVERAGE_RATING HIGHEST_RATING LOWEST_RATING
+---------- ------------- -------------- -------------- -------------
+       201             4              5              5             5
+       204             1              4              4             4
+       202             1              4              4             4
+       203             1              3              3             3       
