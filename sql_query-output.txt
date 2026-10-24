@@ -1,0 +1,371 @@
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       101 Face Wash                                                 250
+          1 Yes
+
+       102 Lipstick                                                  450
+          2 Yes
+
+       103 Shampoo                                                   350
+          3 Yes
+
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       104 Perfume                                                  1500
+          4 Yes
+
+       105 Moisturizer                                               800
+          1 Yes
+
+       106 Foundation                                                900
+          2 No
+
+
+6 rows selected.
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+       101 Face Wash                                                 250
+       102 Lipstick                                                  450
+       103 Shampoo                                                   350
+       104 Perfume                                                  1500
+       105 Moisturizer                                               800
+       106 Foundation                                                900
+
+6 rows selected.
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       101 Face Wash                                                 250
+          1 Yes
+
+       102 Lipstick                                                  450
+          2 Yes
+
+       103 Shampoo                                                   350
+          3 Yes
+
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       105 Moisturizer                                               800
+          1 Yes
+
+       106 Foundation                                                900
+          2 No
+
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       101 Face Wash                                                 250
+          1 Yes
+
+       102 Lipstick                                                  450
+          2 Yes
+
+       103 Shampoo                                                   350
+          3 Yes
+
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       104 Perfume                                                  1500
+          4 Yes
+
+       105 Moisturizer                                               800
+          1 Yes
+
+       106 Foundation                                                900
+          2 No
+
+
+6 rows selected.
+
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       101 Face Wash                                                 250
+          1 Yes
+
+       103 Shampoo                                                   350
+          3 Yes
+
+       102 Lipstick                                                  450
+          2 Yes
+
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       105 Moisturizer                                               800
+          1 Yes
+
+       106 Foundation                                                900
+          2 No
+
+       104 Perfume                                                  1500
+          4 Yes
+
+
+6 rows selected.
+
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       104 Perfume                                                  1500
+          4 Yes
+
+       106 Foundation                                                900
+          2 No
+
+       105 Moisturizer                                               800
+          1 Yes
+
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       102 Lipstick                                                  450
+          2 Yes
+
+       103 Shampoo                                                   350
+          3 Yes
+
+       101 Face Wash                                                 250
+          1 Yes
+
+
+6 rows selected.
+
+
+CATEGORY_NAME
+------------------------------
+Skincare
+Makeup
+Haircare
+Fragrance
+
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       101 Face Wash                                                 250
+          1 Yes
+
+       102 Lipstick                                                  450
+          2 Yes
+
+       103 Shampoo                                                   350
+          3 Yes
+
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       105 Moisturizer                                               800
+          1 Yes
+
+       106 Foundation                                                900
+          2 No
+
+
+
+PRODUCT_NAME                                            PRICE
+-------------------------------------------------- ----------
+CATEGORY_NAME
+------------------------------
+Face Wash                                                 250
+Skincare
+
+Moisturizer                                               800
+Skincare
+
+
+CUSTOMER_ID CUSTOMER_NAME
+----------- --------------------------------------------------
+CITY
+------------------------------
+          1 Akshaya
+Chennai
+
+          2 Priya
+Coimbatore
+
+          3 Divya
+Madurai
+
+
+CUSTOMER_ID CUSTOMER_NAME
+----------- --------------------------------------------------
+CITY
+------------------------------
+          4 Kavya
+Salem
+
+
+CUSTOMER_ID CUSTOMER_NAME
+----------- --------------------------------------------------
+CITY
+------------------------------
+          1 Akshaya
+Chennai
+
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       101 Face Wash                                                 250
+          1 Yes
+
+       102 Lipstick                                                  450
+          2 Yes
+
+       103 Shampoo                                                   350
+          3 Yes
+
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       105 Moisturizer                                               800
+          1 Yes
+
+
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       101 Face Wash                                                 250
+          1 Yes
+
+       102 Lipstick                                                  450
+          2 Yes
+
+       105 Moisturizer                                               800
+          1 Yes
+
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       106 Foundation                                                900
+          2 No
+
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       101 Face Wash                                                 250
+          1 Yes
+
+       102 Lipstick                                                  450
+          2 Yes
+
+       103 Shampoo                                                   350
+          3 Yes
+
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       105 Moisturizer                                               800
+          1 Yes
+
+       106 Foundation                                                900
+          2 No
+
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       101 Face Wash                                                 250
+          1 Yes
+
+       102 Lipstick                                                  450
+          2 Yes
+
+       103 Shampoo                                                   350
+          3 Yes
+
+
+PRODUCT_ID PRODUCT_NAME                                            PRICE
+---------- -------------------------------------------------- ----------
+CATEGORY_ID AVAILABILI
+----------- ----------
+       105 Moisturizer                                               800
+          1 Yes
+
+       106 Foundation                                                900
+          2 No
+
+
+PRODUCT_NAME                                            PRICE
+-------------------------------------------------- ----------
+Face Wash                                                 250
+Shampoo                                                   350
+Lipstick                                                  450
+Moisturizer                                               800
+Foundation                                                900
+Perfume                                                  1500
+
+6 rows selected.
+
+
+CUSTOMER_NAME                                        ORDER_ID ORDER_DAT
+-------------------------------------------------- ---------- ---------
+Akshaya                                                  1001 20-OCT-26
+Priya                                                    1002 21-OCT-26
+Akshaya                                                  1003 22-OCT-26
+Divya                                                    1004 23-OCT-26
+
+
+PRODUCT_NAME                                         ORDER_ID   QUANTITY
+-------------------------------------------------- ---------- ----------
+Face Wash                                                1001          2
+Lipstick                                                 1001          1
+Shampoo                                                  1002          2
+Perfume                                                  1004          1
+Moisturizer                                              1003          1
+
+
+CUSTOMER_ID CUSTOMER_NAME                                      TOTAL_ORDERS
+----------- -------------------------------------------------- ------------
+          1 Akshaya                                                      2
+          2 Priya                                                        1
+          3 Divya                                                        1
+          4 Kavya                                                        0
+
+
+CUSTOMER_ID CUSTOMER_NAME                                      TOTAL_PURCHASE
+----------- -------------------------------------------------- --------------
+          1 Akshaya                                                     1750
+          2 Priya                                                        700
+          3 Divya                                                       1500
