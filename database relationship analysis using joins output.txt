@@ -1,0 +1,88 @@
+CUSTOMER_ID CUSTOMER_NAME  ORDER_ID ORDER_DATE TOTAL_AMOUNT
+----------- -------------- -------- ---------- ------------
+          1 Anitha Kumar        101 16-SEP-26          2700
+          2 Rahul               102 15-SEP-26          1800
+          2 Rahul               103 17-SEP-26          1200
+
+3 rows selected.
+
+  ORDER_ID ORDER_DATE  TOTAL_AMOUNT PAYMENT_MODE  PAYMENT_AMOUNT PAYMENT_STATUS
+---------- ----------- ------------ ------------- -------------- --------------
+       101 16-SEP-26           2700 UPI                     2700 Paid
+       102 15-SEP-26           1800 Credit Card             1800 Paid
+
+2 rows selected.
+
+PRODUCT_ID PRODUCT_NAME              ORDER_ID   QUANTITY UNIT_PRICE   SUBTOTAL
+---------- ------------------------- -------- ---------- ---------- ----------
+       201 Organic Turmeric Powder        101          2       1000       2000
+       202 Black Pepper Face Wash         101          1        700        700
+       202 Black Pepper Face Wash         102          3        600       1800
+       203 Lipstick                       103          1       1200       1200
+
+4 rows selected.
+
+CUSTOMER_ID CUSTOMER_NAME  ORDER_ID ORDER_DATE TOTAL_AMOUNT
+----------- -------------- -------- ----------- ------------
+          1 Anitha Kumar        101 16-SEP-26          2700
+          2 Rahul               102 15-SEP-26          1800
+          2 Rahul               103 17-SEP-26          1200
+          3 Priya
+          4 Divya
+
+5 rows selected.
+
+CUSTOMER_ID CUSTOMER_NAME  ORDER_ID ORDER_DATE TOTAL_AMOUNT
+----------- -------------- -------- ----------- ------------
+          1 Anitha Kumar        101 16-SEP-26          2700
+          2 Rahul               102 15-SEP-26          1800
+          2 Rahul               103 17-SEP-26          1200
+
+3 rows selected.
+
+CUSTOMER_ID CUSTOMER_NAME ORDER_ID ORDER_DATE PRODUCT_ID PRODUCT_NAME
+----------- ------------- -------- ---------- ---------- -------------------------
+          2 Rahul              102 15-SEP-26        202 Black Pepper Face Wash
+          1 Anitha Kumar       101 16-SEP-26        201 Organic Turmeric Powder
+          1 Anitha Kumar       101 16-SEP-26        202 Black Pepper Face Wash
+
+QUANTITY UNIT_PRICE SUBTOTAL PAYMENT_MODE PAYMENT_AMOUNT PAYMENT_STATUS
+-------- ---------- -------- ------------ -------------- --------------
+       3        600     1800 Credit Card           1800 Paid
+       2       1000     2000 UPI                   2700 Paid
+       1        700      700 UPI                   2700 Paid
+
+3 rows selected.
+
+CUSTOMER_ID CUSTOMER_NAME  ORDER_ID ORDER_DATE PRODUCT_NAME               QUANTITY   SUBTOTAL
+----------- -------------- -------- ---------- ------------------------- ---------- ----------
+          1 Anitha Kumar        101 16-SEP-26  Organic Turmeric Powder             2       2000
+          1 Anitha Kumar        101 16-SEP-26  Black Pepper Face Wash              1        700
+          2 Rahul               102 15-SEP-26  Black Pepper Face Wash              3       1800
+          2 Rahul               103 17-SEP-26  Lipstick                            1       1200
+
+4 rows selected.
+
+CUSTOMER_NAME  ORDER_ID ORDER_DATE PRODUCT_NAME              QUANTITY   SUBTOTAL PAYMENT_MODE PAYMENT_AMOUNT PAYMENT_STATUS
+-------------- -------- ---------- ------------------------- ---------- ---------- ------------ -------------- --------------
+Anitha Kumar        101 16-SEP-26  Organic Turmeric Powder            2       2000 UPI                    2700 Paid
+Anitha Kumar        101 16-SEP-26  Black Pepper Face Wash             1        700 UPI                    2700 Paid
+Rahul               102 15-SEP-26  Black Pepper Face Wash             3       1800 Credit Card            1800 Paid
+
+3 rows selected.
+
+CUSTOMER_ID CUSTOMER_NAME  TOTAL_ORDERS TOTAL_QUANTITY TOTAL_SALES
+----------- -------------- ------------ -------------- -----------
+          1 Anitha Kumar              1              3        2700
+          2 Rahul                     2              4        3000
+          3 Priya                     0              0           0
+          4 Divya                     0              0           0
+
+4 rows selected.
+
+PAYMENT_ID CUSTOMER_NAME  ORDER_ID ORDER_DATE PAYMENT_MODE PAYMENT_AMOUNT PAYMENT_STATUS
+---------- -------------- -------- ---------- ------------ -------------- --------------
+       301 Anitha Kumar        101 16-SEP-26  UPI                    2700 Paid
+       302 Rahul               102 15-SEP-26  Credit Card            1800 Paid
+
+2 rows selected.
