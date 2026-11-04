@@ -1,0 +1,70 @@
+TOTAL_ORDERS
+------------
+           6
+
+TOTAL_SALES
+-----------
+       6450
+
+AVERAGE_SALES
+-------------
+         1075
+
+MINIMUM_SALES
+-------------
+          800
+
+MAXIMUM_SALES
+-------------
+         1600
+
+TOTAL_ORDERS TOTAL_SALES AVERAGE_SALES MINIMUM_SALES MAXIMUM_SALES
+------------ ----------- ------------- ------------- -------------
+           6        6450          1075           800          1600
+
+CUSTOMER_ID CUSTOMER_NAME                  TOTAL_ORDERS TOTAL_PURCHASE
+----------- ------------------------------ ------------ --------------
+        101 Akshaya                                   2           1700
+        104 Kavya                                     1           1600
+        102 Priya                                     1           1200
+        105 Swetha                                    1           1000
+        103 Divya                                     1            950
+
+CUSTOMER_ID CUSTOMER_NAME                  PURCHASE_AMOUNT
+----------- ------------------------------ ---------------
+        101 Akshaya                                   1700
+        104 Kavya                                     1600
+        102 Priya                                     1200
+
+PRODUCT_ID PRODUCT_NAME                             TOTAL_QUANTITY
+---------- ---------------------------------------- --------------
+       201 Face Wash                                             3
+       205 Perfume                                               3
+       202 Moisturizer                                           2
+       206 Foundation                                            2
+       203 Lipstick                                              2
+       204 Shampoo                                               2
+
+6 rows selected.
+
+PRODUCT_ID PRODUCT_NAME                             SALES_AMOUNT
+---------- ---------------------------------------- ------------
+       205 Perfume                                          2400
+       206 Foundation                                       1200
+       202 Moisturizer                                       800
+       201 Face Wash                                         750
+       203 Lipstick                                          700
+       204 Shampoo                                           600
+
+6 rows selected.
+
+CATEGORY_ID CATEGORY_NAME                  TOTAL_SALES
+----------- ------------------------------ -----------
+          4 Fragrance                             2400
+          2 Makeup                                1900
+          1 Skincare                              1550
+          3 Haircare                               600
+
+TOTAL_CUSTOMERS TOTAL_ORDERS TOTAL_PRODUCTS PRODUCTS_SOLD TOTAL_SALES
+--------------- ------------ -------------- ------------- -----------
+              5            6              6            14        6450
