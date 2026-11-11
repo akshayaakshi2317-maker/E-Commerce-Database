@@ -1,0 +1,80 @@
+PRODUCT_ID PRODUCT_NAME          PRICE
+---------- -------------------- -----
+       202 Serum                 1200
+       205 Perfume               1500
+
+2 rows selected.
+
+PRODUCT_ID PRODUCT_NAME          PRICE
+---------- -------------------- -----
+       201 Face Wash              500
+       203 Lipstick               800
+       204 Shampoo                700
+       206 Moisturizer            600
+
+4 rows selected.
+
+CUSTOMER_ID CUSTOMER_NAME        TOTAL_PURCHASE
+----------- -------------------- --------------
+        101 Akshaya                       3100
+        102 Priya                         2000
+        103 Divya                         4800
+        104 Kavya                         1900
+        105 Sneha                         1600
+
+5 rows selected.
+
+MAX(TOTAL_PURCHASE)
+-------------------
+               4800
+
+CUSTOMER_ID CUSTOMER_NAME        TOTAL_PURCHASE
+----------- -------------------- --------------
+        103 Divya                         4800
+
+1 row selected.
+
+CUSTOMER_ID CUSTOMER_NAME
+----------- --------------------
+        102 Priya
+        103 Divya
+
+2 rows selected.
+
+PRODUCT_ID PRODUCT_NAME          TOTAL_SALES
+---------- -------------------- -----------
+       202 Serum                       2400
+       203 Lipstick                    2400
+       205 Perfume                     4500
+
+3 rows selected.
+
+CUSTOMER_ID CUSTOMER_NAME TOTAL_ORDERS TOTAL_PURCHASE AVERAGE_ORDER
+----------- ------------- ------------ -------------- -------------
+        103 Divya                    2           4800          2400
+        101 Akshaya                  2           3100          1550
+        102 Priya                    1           2000          2000
+        104 Kavya                    1           1900          1900
+        105 Sneha                    1           1600          1600
+
+5 rows selected.
+
+PRODUCT_ID PRODUCT_NAME TOTAL_ORDERS TOTAL_QUANTITY PRICE TOTAL_SALES
+---------- ------------ ------------ -------------- ----- -----------
+       205 Perfume                 2              3  1500        4500
+       202 Serum                   2              2  1200        2400
+       203 Lipstick                2              3   800        2400
+       204 Shampoo                 1              2   700        1400
+       201 Face Wash               2              3   500        1500
+       206 Moisturizer             2              2   600        1200
+
+6 rows selected.
+
+CATEGORY_ID CATEGORY_NAME TOTAL_PRODUCTS TOTAL_QUANTITY TOTAL_SALES
+----------- ------------- -------------- -------------- -----------
+          1 Skincare                   3              7        5100
+          2 Makeup                     1              3        2400
+          3 Haircare                   1              2        1400
+          4 Fragrance                  1              3        4500
+
+4 rows selected.
